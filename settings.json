@@ -1,0 +1,83 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "vscode-icons-mac",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "editor.fontFamily": "Fira Code",
+    "editor.formatOnSaveMode": "file",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "html"
+    },
+    "eslint.enable": true,
+    "files.autoSaveWhenNoErrors": true,
+    "files.insertFinalNewline": true,
+    // js & ts 强制没有分号
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    // 设定各语言自动格式化使用插件
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "vscode.markdown-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "terminal.integrated.env.osx": {},
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontFamily": "Fira Code"
+}
